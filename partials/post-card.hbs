@@ -6,16 +6,11 @@
             </header>
         </a>
 
-        {{#if primary_tag}}
-        <section class="post-full-tags">
-            {{#primary_tag}}
-            <a href="{{url}}">{{name}}</a>
-            {{/primary_tag}}
-        </section>
-        {{/if}}
-
         <div class="post-card-byline-content">
-            <span class="post-card-byline-date">{{authors}} &ndash; <time><datetime="{{date format="YYYY-MM-DD"}}">{{date format="D MMM YYYY"}}</time></span>
+            <span class="post-card-byline-date">{{authors}} &mdash; <time>
+                <datetime="{{date format="YYYY-MM-DD"}}">{{date format="D MMM YYYY"}}</time>
+                        {{#primary_tag}} &mdash; <a href="{{url}}">{{name}}</a>{{/primary_tag}}
+                </span>
         </div>
 
         <section class="post-content">

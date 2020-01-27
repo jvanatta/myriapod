@@ -742,12 +742,11 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     display: flex;
     flex-direction: column;
     margin: 0px 0 1.4em 0px;
-    color: var(--text-color);
+    color: var(--midgrey);
     font-size: 1.2rem;
     line-height: 1.4em;
     font-weight: 400;
     letter-spacing: 0.2px;
-    text-transform: uppercase;
 }
 
 .post-card-byline-content span {
@@ -755,7 +754,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 }
 
 .post-card-byline-content a {
-    color: var(--text-color);
+    color: var(--midgrey);
     font-weight: 400;
 }
 
@@ -910,7 +909,7 @@ make sure this only happens on large viewports / desktop-ish devices.
 }
 
 .post-full-meta-date {
-    color: var(--text-color);
+    color: var(--midgrey);
     font-size: 1.2rem;
     font-weight: 400;
 }
