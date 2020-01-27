@@ -610,7 +610,6 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 
 .post-card-content-link {
     position: relative;
-    display: block;
     color: var(--post-link-color);
 }
 
@@ -888,7 +887,6 @@ make sure this only happens on large viewports / desktop-ish devices.
 
 .post-full-header {
     position: relative;
-    margin: 0 auto;
     padding: 10px 0px 0px;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
