@@ -1,0 +1,52 @@
+.lightbox {
+  cursor: pointer;
+}
+
+.lightbox_modal {
+    width: 100vw;
+    height: 100vh;
+    background: #111111;
+    opacity: 1;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: 9999;
+  }
+
+.lightbox_modal img {
+    max-width: 96vw;
+    max-height: 96vh;
+    position: fixed;
+    border: 2px solid #555555;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.lightbox__close {
+    position: absolute;
+    right: 14px;
+    top: 7px;
+    width: 20px;
+    height: 20px;
+    opacity: 0.5;
+    cursor: pointer;
+    z-index: 10000;
+  }
+  .lightbox__close:hover {
+    opacity: 1;
+  }
+  .lightbox__close:before, .lightbox__close:after {
+    position: absolute;
+    left: 0px;
+    content: ' ';
+    height: 20px;
+    width: 2px;
+    background-color: #cccccc;
+  }
+  .lightbox__close:before {
+    transform: rotate(45deg);
+  }
+  .lightbox__close:after {
+    transform: rotate(-45deg);
+  }
