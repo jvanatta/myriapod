@@ -32,6 +32,11 @@
     padding-bottom: 1em;
 }
 
+.segment-narrative-first {
+    padding-top:0em;
+    padding-bottom: 1em;
+}
+
 @media (max-width: 650px) {
     .segment-intro {
         grid-template-columns: 1fr;
