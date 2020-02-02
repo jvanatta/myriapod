@@ -462,7 +462,6 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     padding-right: 20px;
 }
 
-
 .social-link {
     display: inline-block;
     margin: 0;
@@ -907,19 +906,11 @@ make sure this only happens on large viewports / desktop-ish devices.
     font-weight: 400;
 }
 
-@media (max-width: 1170px) {
-
-}
-
 @media (max-width: 800px) {
     .post-full-header {
         padding-right: 0vw;
         padding-left: 0vw;
     }
-}
-
-@media (max-width: 500px) {
-
 }
 
 .post-full-title {
