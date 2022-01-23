@@ -1,10 +1,10 @@
 {
     "name": "myriapod",
     "description": "A simple theme designed for modular post construction. Derived from Casper.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "engines": {
-        "ghost": ">=3.0.0",
-        "ghost-api": "v3"
+        "ghost": ">=4.0.0",
+        "ghost-api": "v4"
     },
     "license": "MIT",
     "screenshots": {
@@ -14,7 +14,7 @@
     "scripts": {
         "dev": "gulp",
         "zip": "gulp zip",
-        "test": "gscan --v3 .",
+        "test": "gscan -3 .",
         "pretest": "gulp build",
         "preship": "yarn test",
         "ship": "STATUS=$(git status --porcelain); echo $STATUS; if [ -z \"$STATUS\" ]; then yarn version && git push --follow-tags; else echo \"Uncomitted changes found.\" && exit 1; fi",
